@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"> 
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+	<nav class="navbar navbar-dark navbar-expand-lg navbar-light bg-light sticky-top bg-dark">
+	  <a id="navbar-brand" class="navbar-brand fa fa-facebook-square " href="#"> 
+		<!-- Facebook --></a>
+		<form class="form-inline my-2 my-lg-0">
+			<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			<!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+		  </form>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link " href="#"> <!-- Home --> </a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link text-white" href="#"><!-- Link --></a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          <!-- Dropdown -->
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#"><!-- Action --></a>
+	          <a class="dropdown-item" href="#"><!-- Another action --></a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="#"><!-- Something else here --></a>
+	        </div>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link text-white" href="about.html" ><!-- About --></a>
+	      </li>
+	    </ul>
+	    
+	  </div>
+	</nav>
+	
+	<div class="container  mt-4">
+		<div class="row">
+			<div class="col-12 col-sm-12 col-md-3 col-xl-3 ">
+				<div class="row mb-4" >
+					<div class="col-12 col-sm-12 col-md-12 col-xl-12 shadow bg-dark rounded">
+					<div class="col-12" >
+						<h4 class="text-center text-white">Ariful Islam</h4>
+						<img class="imgOne center" src="images/avatar.jpg">
+					</div>
+					<hr>
+					<ul class="list-group border-0 " id="profile-area" >
+						<!--Profile Area-->
+					</ul>	
+					</div>
+				</div>
+				<div class="row mb-4">
+					<div class="col-12 col-sm-12 col-md-12 col-xl-12 p-0">
+						<ul class="list-group " id="list-group">
+							<!--List Area-->
+						</ul>
+					</div>	
+				</div>
+				<div class="row">
+					<div class="d-none d-md-block shadow bg-dark rounded col-12 col-sm-12 col-md-12 col-xl-12" >
+						<p class="text-white">Interest</p>
+					
+						<div id="span-area">
+							<!--Span Area-->	
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-12 col-md-7 col-xl-7">
+			<div class="container bg-dark rounded">
+				<div class="row p-4">
+					<div class="col-2">
+						<img style="width: 35px;height: 35px" class="imgOne" src="images/avatar.jpg">
+					</div>				
+					<div class="col-10">
+						<button type="button" class="btn btn-primary w-100 text-left bg-secondary" data-toggle="modal" data-target="#exampleModal">
+						  What's On your Mind, Ariful?
+						</button>
+						
+						<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						  <div class="modal-dialog bg-dark" role="document">
+							<div class="modal-content bg-dark">
+							  <div class="modal-header">
+								<h5 class="modal-title text-center text-white" >Create Post</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								  <span aria-hidden="true">&times;</span>
+								</button>
+							  </div>
+							  <div class="modal-body">
+								<h3 class="text-center text-white">Create Post</h3>
+						<img class="rounded-circle" style="width: 40px;height: 40px" src="images/avatar.jpg">
+						<span class="ml-4 font-weight-bold text-white">Ariful Islam</span>
+						<div class="container" style="padding: 0px">
+							<div class="row">
+								<div class="col-12 mt-4">
+									<textarea class="border-0 bg-dark text-white form-control"  id="textarea-value" rows="3" placeholder="What's on your mind, Ariful?"></textarea>
+								</div>
+		
+								<div class="container mt-4">
+									<div class="row border rounded p-2">
+										<div class="col-6">
+											<a href="#" data-dismiss="modal">Add to your Post</a>
+										</div>
+										<div class="col-6">
+											<div class="container">
+												<div class="row">
+													<div class="col ">
+														<button title="Photo/Video" type="button" class="btn btn-dark fa fa-image"></button>
+													</div>
+													<div class="col ">
+														<button title="Tag" type="button" class="btn btn-dark fa fa-tag"></button>
+													</div>
+													<div class="col ">
+														<button title="Location" type="button" class="btn btn-dark fa fa-map-marker"></button>
+													</div>
+													<div class="col ">
+														<button title="Feeling/Activity" type="button" class="btn btn-dark far fa-laugh"></button>
+													</div>
+													<div class="col ">
+														<button title="Feeling/Activity" id="ellipsis" type="button"  class="btn btn-dark fa fa-ellipsis-h"></button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button data-dismiss="modal" id="post-button" type="button" class="btn btn-primary">Post</button>	  
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<div class="container bg-dark rounded mt-4">
+	<div class="row">
+		<div class="col-2 mt-2">
+			<img class="imgTwo mt-2 mb-2" src="images/avatar.jpg">
+		</div>
+		<div class="col-12 col-sm-10 col-md-10 col-xl-10 mt-4">
+			<h5 class="font-weight-bold"><a href="#"> Ariful Islam </a></h5>
+			<span id="date"></span>
+		</div>
+		<div class="col-12 p-2">
+			<p class="text-justify text-white" id="post"></p>
+		</div>
+		<div class="card-deck p-2">
+			<div class="card">
+				<img class="card-img-top" src="images/nature.jpg" alt="Card image cap">
+			</div>
+			<div class="card">
+				<img class="card-img-top" src="images/nature2.jpg" alt="Card image cap">
+			</div>
+		</div>
+	</div>
+	<div class="row p-2">
+		<a href="#" id="like-count" class="text-white"></a>
+	</div>
+	<div class="row border-top border-light border-bottom border-light " >
+		<div class="col-4 ">
+			<button type="button" class="fa fa-thumbs-up mt-2 mb-2 w-100 btn btn-dark" id="like-btn"> Like </button>
+		</div>
+		<div class="col-4 " >
+			<button type="button" class="mt-2 mb-2 w-100 fa fa-comment btn btn-dark" id="comment-btn"> Comment</button>
+		</div>
+		<div class="col-4" >
+			<button type="button" class="mt-2 mb-2 w-100 fa fa-share btn btn-dark"> Share</button>
+		</div>
+	</div>
+	<div class="row mt-2" >
+		<div class="col-1">
+			<img style="width: 35px;height: 30px;border-radius: 360px;" src="images/avatar.jpg">
+		</div>
+		<div class="col-10 col-sm-11 col-md-6 col-xl-7">
+			<div class="input-group mb-3">
+				<input type="text" id="comment-input" class="form-control" aria-label="Text input with" placeholder="Write a comment">
+			  </div>
+		</div>
+		<div class="col-12 d-none d-md-block col-md-5 col-xl-4 pr-0" >
+			<button type="button" class="btn btn-light "> <i class="far fa-laugh"></i></button>
+			<button type="button" class="btn btn-light "><i class="fa fa-camera"></i></button>
+			<button type="button" class="btn btn-light "><i class="fa fa-file-zip-o"></i></button>
+			<button type="button" class="btn btn-light "><i class="fa fa-gift"></i></button>
+		</div>
+	</div>
+</div>	            				
+	
+	
+	<div class="container bg-dark rounded mt-4">
+		<div class="row">
+			<div class="col-2  mt-2">
+				<img class="imgTwo mt-2 mb-2" src="images/avatar.jpg">
+			</div>
+			<div class="col-12 col-sm-10 col-md-10 col-xl-10 mt-4">
+				<h5 class="font-weight-bold"><a href="#"> Mahbub Rahman </a></h5>
+				<span id="date"></span>
+			</div>
+			<div class="col-12 mt-4">
+				<p class="text-white">বাংলাদেশ কারিগরি শিক্ষা বোর্ডের প্রাক্তন চেয়ারম্যান প্রফেসর ড. মোঃ ইদ্রীস আলী(জন্মঃ ০১/১১/১৯৫৬খ্রিঃ) ১৯/০৬/২০২০ তারিখ রাতে  মৃত্যুবরণ করেছেন(ইন্না-লিল্লাহি ওয়া....রাজিউন)।
+				তিনি টেকনিক্যাল টিচার্স ট্রেনিং কলেজ,ঢাকার অধ্যক্ষ ছিলেন এবং সর্বশেষ প্রেসিডেন্সি ইউনিভার্সিটির সিভিল ইঞ্জিনিয়ারিং বিভাগের চেয়ারম্যান হিসেবে কর্মরত ছিলেন।
+				সকলের দোয়া কাম্য।… See more</p>
+			</div>
+		</div>
+		
+		<div class="row border-top border-light border-bottom border-light " >
+			<div class="col-4 ">
+				<button type="button" class="fa fa-thumbs-up mt-2 mb-2 w-100 btn btn-dark">Like </button>
+			</div>
+			<div class="col-4 " >
+				<button type="button" class="mt-2 mb-2 w-100 fa fa-comment btn btn-dark" id="comment-btn1"> Comment</button>
+			</div>
+			<div class="col-4" >
+				<button type="button" class="mt-2 mb-2 w-100 fa fa-share btn btn-dark"> Share</button>
+			</div>
+		</div>
+		<div class="row mt-2" >
+			<div class="col-1">
+				<img style="width: 35px;height: 30px;border-radius: 360px;" src="images/avatar.jpg">
+			</div>
+			<div class="col-10 col-sm-11 col-md-6 col-xl-7">
+				<div class="input-group mb-3">
+					<input type="text" id="comment-input1" class="form-control" aria-label="Text input with" placeholder="Write a comment">
+				  </div>
+			</div>
+			<div class="col-12 d-none d-md-block col-md-5 col-xl-4 pr-0" >
+				<button type="button" class="btn btn-light "> <i class="far fa-laugh"></i></button>
+				<button type="button" class="btn btn-light "><i class="fa fa-camera"></i></button>
+				<button type="button" class="btn btn-light "><i class="fa fa-file-zip-o"></i></button>
+				<button type="button" class="btn btn-light "><i class="fa fa-gift"></i></button>
+			</div>
+		</div>
+	</div>	
+	<div class="container bg-dark rounded mt-4">
+		<div class="row">
+			<div class="col-2  mt-2">
+				<img class="imgTwo mt-2 mb-2" src="images/avatar.jpg">
+			</div>
+			<div class="col-12 col-sm-10 col-md-10 col-xl-10 mt-4">
+				<h5 class="font-weight-bold"><a href="#"> Mahbub Rahman </a></h5>
+				<span id="date"></span>
+			</div>
+			<div class="col-12 mt-4">
+				<p class="text-white">বাংলাদেশ কারিগরি শিক্ষা বোর্ডের প্রাক্তন চেয়ারম্যান প্রফেসর ড. মোঃ ইদ্রীস আলী(জন্মঃ ০১/১১/১৯৫৬খ্রিঃ) ১৯/০৬/২০২০ তারিখ রাতে  মৃত্যুবরণ করেছেন(ইন্না-লিল্লাহি ওয়া....রাজিউন)।
+				তিনি টেকনিক্যাল টিচার্স ট্রেনিং কলেজ,ঢাকার অধ্যক্ষ ছিলেন এবং সর্বশেষ প্রেসিডেন্সি ইউনিভার্সিটির সিভিল ইঞ্জিনিয়ারিং বিভাগের চেয়ারম্যান হিসেবে কর্মরত ছিলেন।
+				সকলের দোয়া কাম্য।… See more</p>
+			</div>
+		</div>
+		<div class="row border-top border-light border-bottom border-light " >
+			<div class="col-4 ">
+				<button type="button" class="fa fa-thumbs-up mt-2 mb-2 w-100 btn btn-dark">Like </button>
+			</div>
+			<div class="col-4 " >
+				<button type="button" class="mt-2 mb-2 w-100 fa fa-comment btn btn-dark" id="comment-btn2"> Comment</button>
+			</div>
+			<div class="col-4" >
+				<button type="button" class="mt-2 mb-2 w-100 fa fa-share btn btn-dark"> Share</button>
+			</div>
+		</div>
+		<div class="row mt-2" >
+			<div class="col-1">
+				<img style="width: 35px;height: 30px;border-radius: 360px;" src="images/avatar.jpg">
+			</div>
+			<div class="col-10 col-sm-11 col-md-6 col-xl-7">
+				<div class="input-group mb-3">
+					<input type="text" id="comment-input2" class="form-control" aria-label="Text input with" placeholder="Write a comment">
+				  </div>
+			</div>
+			<div class="col-12 d-none d-md-block col-md-5 col-xl-4 pr-0" >
+				<button type="button" class="btn btn-light "> <i class="far fa-laugh"></i></button>
+				<button type="button" class="btn btn-light "><i class="fa fa-camera"></i></button>
+				<button type="button" class="btn btn-light "><i class="fa fa-file-zip-o"></i></button>
+				<button type="button" class="btn btn-light "><i class="fa fa-gift"></i></button>
+			</div>
+		</div>
+	</div>	
+	<div class="container bg-dark rounded mt-4">
+		<div class="row">
+			<div class="col-2  mt-2">
+				<img class="imgTwo mt-2 mb-2" src="images/avatar.jpg">
+			</div>
+			<div class="col-12 col-sm-10 col-md-10 col-xl-10 mt-4">
+				<h5 class="font-weight-bold"><a href="#"> Mahbub Rahman </a></h5>
+				<span id="date"></span>
+			</div>
+			<div class="col-12 mt-4">
+				<p class="text-white">বাংলাদেশ কারিগরি শিক্ষা বোর্ডের প্রাক্তন চেয়ারম্যান প্রফেসর ড. মোঃ ইদ্রীস আলী(জন্মঃ ০১/১১/১৯৫৬খ্রিঃ) ১৯/০৬/২০২০ তারিখ রাতে  মৃত্যুবরণ করেছেন(ইন্না-লিল্লাহি ওয়া....রাজিউন)।
+				তিনি টেকনিক্যাল টিচার্স ট্রেনিং কলেজ,ঢাকার অধ্যক্ষ ছিলেন এবং সর্বশেষ প্রেসিডেন্সি ইউনিভার্সিটির সিভিল ইঞ্জিনিয়ারিং বিভাগের চেয়ারম্যান হিসেবে কর্মরত ছিলেন।
+				সকলের দোয়া কাম্য।… See more</p>
+			</div>
+		</div>
+		<div class="row border-top border-light border-bottom border-light " >
+			<div class="col-4 ">
+				<button type="button" class="fa fa-thumbs-up mt-2 mb-2 w-100 btn btn-dark">Like </button>
+			</div>
+			<div class="col-4 " >
+				<button type="button" class="mt-2 mb-2 w-100 fa fa-comment btn btn-dark" id="comment-btn3"> Comment</button>
+			</div>
+			<div class="col-4" >
+				<button type="button" class="mt-2 mb-2 w-100 fa fa-share btn btn-dark"> Share</button>
+			</div>
+		</div>
+		<div class="row mt-2" >
+			<div class="col-1">
+				<img style="width: 35px;height: 30px;border-radius: 360px;" src="images/avatar.jpg">
+			</div>
+			<div class="col-10 col-sm-11 col-md-6 col-xl-7">
+				<div class="input-group mb-3">
+					<input type="text" id="comment-input3" class="form-control" aria-label="Text input with" placeholder="Write a comment">
+				  </div>
+			</div>
+			<div class="col-12 d-none d-md-block col-md-5 col-xl-4 pr-0" >
+				<button type="button" class="btn btn-light "> <i class="far fa-laugh"></i></button>
+				<button type="button" class="btn btn-light "><i class="fa fa-camera"></i></button>
+				<button type="button" class="btn btn-light "><i class="fa fa-file-zip-o"></i></button>
+				<button type="button" class="btn btn-light "><i class="fa fa-gift"></i></button>
+			</div>
+		</div>
+	</div>	
+	<div class="container bg-dark rounded mt-4">
+		<div class="row">
+			<div class="col-2  mt-2">
+				<img class="imgTwo mt-2 mb-2" src="images/avatar.jpg">
+			</div>
+			<div class="col-12 col-sm-10 col-md-10 col-xl-10 mt-4">
+				<h5 class="font-weight-bold"><a href="#"> Mahbub Rahman </a></h5>
+				<span id="date"></span>
+			</div>
+			<div class="col-12 mt-4">
+				<p class="text-white">বাংলাদেশ কারিগরি শিক্ষা বোর্ডের প্রাক্তন চেয়ারম্যান প্রফেসর ড. মোঃ ইদ্রীস আলী(জন্মঃ ০১/১১/১৯৫৬খ্রিঃ) ১৯/০৬/২০২০ তারিখ রাতে  মৃত্যুবরণ করেছেন(ইন্না-লিল্লাহি ওয়া....রাজিউন)।
+				তিনি টেকনিক্যাল টিচার্স ট্রেনিং কলেজ,ঢাকার অধ্যক্ষ ছিলেন এবং সর্বশেষ প্রেসিডেন্সি ইউনিভার্সিটির সিভিল ইঞ্জিনিয়ারিং বিভাগের চেয়ারম্যান হিসেবে কর্মরত ছিলেন।
+				সকলের দোয়া কাম্য।… See more</p>
+			</div>
+		</div>
+		<div class="row border-top border-light border-bottom border-light " >
+			<div class="col-4 ">
+				<button type="button" class="fa fa-thumbs-up mt-2 mb-2 w-100 btn btn-dark">Like </button>
+			</div>
+			<div class="col-4 " >
+				<button type="button" class="mt-2 mb-2 w-100 fa fa-comment btn btn-dark" id="comment-btn4"> Comment</button>
+			</div>
+			<div class="col-4" >
+				<button type="button" class="mt-2 mb-2 w-100 fa fa-share btn btn-dark"> Share</button>
+			</div>
+		</div>
+		<div class="row mt-2" >
+			<div class="col-1">
+				<img style="width: 35px;height: 30px;border-radius: 360px;" src="images/avatar.jpg">
+			</div>
+			<div class="col-10 col-sm-11 col-md-6 col-xl-7">
+				<div class="input-group mb-3">
+					<input type="text" id="comment-input4" class="form-control" aria-label="Text input with" placeholder="Write a comment">
+				  </div>
+			</div>
+			<div class="col-12 d-none d-md-block col-md-5 col-xl-4 pr-0" >
+				<button type="button" class="btn btn-light "> <i class="far fa-laugh"></i></button>
+				<button type="button" class="btn btn-light "><i class="fa fa-camera"></i></button>
+				<button type="button" class="btn btn-light "><i class="fa fa-file-zip-o"></i></button>
+				<button type="button" class="btn btn-light "><i class="fa fa-gift"></i></button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-2">
+	<div class="row">
+		<div class="d-none d-md-block col-xl-12 ">
+			<div class="row bg-dark mb-4 rounded">
+				<div class="col-12">
+						<h4 class="text-center text-white">Upcoming Events:</h4>
+						<img style="width: 100%" src="images/nature1.jpg">
+						<h5 class="text-center text-white">Holiday</h5>
+						<h5 class="text-center text-white">Friday 15:00</h5>
+						<button type="button" class="w-100 mb-4 btn btn-dark">Info</button>
+				</div>
+			</div>
+				<div class="row mt-4 bg-dark mb-4 rounded" >
+					<div class="col-12">
+						<h4 class="text-center text-white">Freind Request</h4>
+						<img style="width: 100%;padding: 20px" src="images/nature1.jpg">
+					</div>
+					<div class="container  mb-4">
+						<div class="row mb-2">
+							<div class="col-6 mt-2" style="padding-right: 0px">
+								<button type="button " class="btn btn-light font-weight-bold">Accept</button>
+							</div>
+							<div class="col-6 mt-2">
+								<button type="button" class="btn btn-light font-weight-bold" style="width: 100%">Decline</button>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+</div>		
+			
+			
+	</div>					
+</div>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+/*
+	Theme Name: Theme for nit
+	Version: 1.0
+	Author: Ariful Islam
+	Author URL: http://ads-222.com;
+	Description: This is wordpress theme only for lerning purpose only
+*/
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.imgOne{
+	width: 100px;
+	height: 100px;
+	border-radius: 360px;
+	transition: transform .2s;
+}
+.imgOne:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+.imgTwo{
+	width: 70px;
+	height: 70px;
+	margin-top: 15px;
+	border-radius: 360px;
+}
+
